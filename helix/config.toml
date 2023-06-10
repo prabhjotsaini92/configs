@@ -1,0 +1,30 @@
+theme = "dark_plus"
+
+[editor]
+line-number = "relative"
+mouse = true
+cursorline = true
+cursorcolumn = true
+true-color = true
+bufferline = "always"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[editor.statusline]
+left = ["mode","file-name","file-modification-indicator"]
+center = []
+right = ["spinner", "diagnostics", "position", "file-type"]
+separator = "│"
+
+[editor.lsp]
+display-messages = true
+
+[editor.indent-guides]
+render = true
+character = "│" # Some characters that work well: "▏","╎", "┆", "┊", "⸽"
